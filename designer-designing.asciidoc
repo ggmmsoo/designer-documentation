@@ -141,9 +141,9 @@ cases a more helpful editor is presented when you click it.
 image::img/designer-propertyeditor.png[width=80%, scaledwidth=100%]
 
 [[designer.designing.using.resources]]
-=== Using resources
+=== Using Resources
 
-Some properties represent a Resource that should be loaded.
+Some properties represent a [classname]#Resource# object that should be loaded.
 This includes the Icon property, and the Source property for some components.
 In Vaadin there are multiple different types of Resources.
 They are represented by a URI in the Designer UI and in the declarative format used by Designer.
@@ -181,7 +181,7 @@ Components that have a Source property include Audio, Flash, Image, Link and Vid
 .An Image component with a Font Icon
 image::img/designer-image-with-icon.png[width=80%, scaledwidth=100%]
 
-Please refer to <<dummy/../../../framework/application/application.resources#application.resources, "Images and Other Resources">> for more information about Resources.
+Please refer to <<dummy/../../../framework/application/application-resources#application.resources, "Images and Other Resources">> for more information about Resources.
 
 
 [[designer.designing.wrapping]]
