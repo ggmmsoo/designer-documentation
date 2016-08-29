@@ -173,6 +173,10 @@ They are represented by a URI in the Designer UI and in the declarative format u
 |ClassResource
 |N/A
 |Not supported by the declarative format.
+
+|StreamResource
+|N/A
+|Not supported by the declarative format.
 |===
 
 Components that have a Source property include Audio, Flash, Image, Link and Video.
