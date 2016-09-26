@@ -94,7 +94,7 @@ created design as you see fit.
 You can also create templates of your own; just design a suitable starting
 point, then place the resulting HTML in the hidden [filename]#templates# directory:
 [filename]#~/.vaadin/designer/templates# in UNIX systems and
-`C:\Users\\[replaceable]##username##\.vaadin\designer\templates` in Windows. It will show
+`C:\Users++\++[replaceable]##<username>##\.vaadin\designer\templates` in Windows. It will show
 up in the [guilabel]#New Design# wizard as a template (without the [filename]#.html# extension).
 
 
