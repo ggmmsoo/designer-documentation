@@ -1,0 +1,39 @@
+---
+title: Installing in IntelliJ IDEA
+order: 3
+layout: page
+---
+
+[[designer.installing.i]]
+= Installing in IntelliJ IDEA
+
+[[designer.installing.intellij]]
+== Installing IntelliJ IDEA and Vaadin Designer
+
+Install IntelliJ IDEA as described in 
+<<dummy/../../framework/installing/installing-idea#installing.idea,"Installing IntelliJ IDEA">>.
+
+Vaadin Designer is compatible with IntelliJ IDEA 14.1 (and later), both Community and Ultimate Editions.
+
+To install Vaadin Designer in IntelliJ IDEA:
+
+. Open IntelliJ IDEA
+
+. Choose [guilabel]#IntelliJ IDEA > Preferences > Plugins# in macOS, [guilabel]#File > Settings > Plugins# 
+in Windows and Linux.
+
+. Click [guibutton]#Browse Repositories...#
+
+. Search for [guilabel]#Vaadin Designer#
+
+. Select [guilabel]#Vaadin Designer# and click [guibutton]#Install#
+
+. Restart IntelliJ IDEA to make the plugin active
+
+[[designer.installing.intellij.uninstalling]]
+== Uninstalling
+
+If you want to remove Vaadin Designer from your IntelliJ IDEA installation, go to
+[guilabel]#IntelliJ IDEA > Preferences > Plugins# in macOS, 
+[guilabel]#File > Settings > Plugins# in Windows and Linux, select 
+[guilabel]#Vaadin Designer# from the list, then click [guibutton]#Uninstall#.

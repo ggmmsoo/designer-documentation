@@ -1,11 +1,11 @@
 ---
-title: Installation
+title: Installing in Eclipse
 order: 2
 layout: page
 ---
 
 [[designer.installing]]
-= Installation
+= Installing in Eclipse
 
 [[designer.installing.eclipse]]
 == Installing Eclipse and Plug-Ins
@@ -19,7 +19,6 @@ You need to install the following to use Vaadin Designer:
 <<dummy/../../framework/installing/installing-eclipse#installing.eclipse.plugin,"Installing Vaadin Plugin for Eclipse">>
 
 . Vaadin Designer from link:http://vaadin.com/eclipse[vaadin.com/eclipse]
-
 
 Vaadin Designer is compatible with Eclipse Luna (and later) available from
 link:http://www.eclipse.org/downloads[www.eclipse.org/downloads]. We recommend
@@ -41,23 +40,6 @@ and finalize the install. Please restart Eclipse when prompted.
 
 Once installed, Vaadin Designer can be kept up-to-date by periodically running
 "Help > Check for Updates".
-
-
-[[designer.installing.license]]
-== License
-
-The first time you start the Vaadin Designer, it will ask for a license key. You
-can obtain a free trial-license, purchase a stand-alone perpetual license, or
-use the license included with your Pro Tools subscription. See
-<<dummy/../../framework/addons/addons-cval#addons.cval,"Installing Commercial
-Vaadin Add-on Licence">> for instructions for installing the license.
-
-Please note that a separate license key is required for each developer. If you
-choose not input any license (even trial), you will be unable to save your work.
-
-If you for any reason need to remove or change a valid license, it is located in
-[filename]#~/.vaadin.designer.developer.license#.
-
 
 [[designer.installing.uninstalling]]
 == Uninstalling
