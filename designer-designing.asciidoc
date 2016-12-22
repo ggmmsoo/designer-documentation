@@ -87,14 +87,12 @@ image::img/designer-infobar.png[width=30%, scaledwidth=50%]
 == Using Templates
 
 Templates provide a starting-point for your design - add, remove, and modify the
-created design as you see fit.
+created design as you see fit. You can pick the template for your design when
+you create the design using the New Design wizard of your IDE. See 
+<<designer-getting-started#designer.getting-started.design, Creating a Design>>.
 
-You can also create templates of your own; just design a suitable starting
-point, then place the resulting HTML in the hidden [filename]#templates# directory:
-[filename]#~/.vaadin/designer/templates# in UNIX systems and
-`C:\Users++\++[replaceable]##<username>##\.vaadin\designer\templates` in Windows. It will show
-up in the [guilabel]#New Design# wizard as a template (without the [filename]#.html# extension).
-
+To learn how to create templates of your own or how to import templates others 
+have made, see <<designer-templates#designer.templates, Templates>>.
 
 [[designer.designing.adding]]
 == Adding Components

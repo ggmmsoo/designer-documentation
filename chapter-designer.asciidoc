@@ -23,5 +23,7 @@ include::designer-theme.asciidoc[leveloffset=+2]
 
 include::designer-wiring.asciidoc[leveloffset=+2]
 
+include::designer-templates.asciidoc[leveloffset=+2]
+
 include::designer-limitations.asciidoc[leveloffset=+2]
 (((range="endofrange", startref="term.designer")))
