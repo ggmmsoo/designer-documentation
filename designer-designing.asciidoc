@@ -200,6 +200,21 @@ versa). You can achieve this by right-clicking the component in the
 image::img/designer-wrapping.png[width=50%, scaledwidth=75%]
 
 
+[[designer.designing.replacewith]]
+== Replacing a Layout with another
+
+In many cases a change in orientation or other rearrangement of components is
+required. Often replacing the layout that contains those components is the only
+option. To replace a layout, click on the layout to be replaced in the
+[guilabel]#Outline# view, choose [menuchoice]#Replace with# in the context menu and
+select a layout to replace the current one with from the list of layouts
+that appears.
+
+[[figure.designer.designing.replacewith]]
+.Replacing a Layout with another
+image::img/designer-replacewith.png[width=50%, scalewidth=100%]
+
+
 [[designer.designing.previewing]]
 == Previewing
 
