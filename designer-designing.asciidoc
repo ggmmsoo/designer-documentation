@@ -212,7 +212,7 @@ that appears.
 
 [[figure.designer.designing.replacewith]]
 .Replacing a Layout with another
-image::img/designer-replacewith.png[width=50%, scalewidth=100%]
+image::img/designer-replacewith.png[width=100%, scaledwidth=100%]
 
 
 [[designer.designing.previewing]]
