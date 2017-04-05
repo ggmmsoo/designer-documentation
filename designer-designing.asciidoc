@@ -201,23 +201,22 @@ image::img/designer-wrapping.png[width=50%, scaledwidth=75%]
 
 
 [[designer.designing.replacewith]]
-== Replacing a Layout with another
+=== Replacing a Layout
 
 In many cases a change in orientation or other rearrangement of components is
-required. Replacing the layout that contains those components is the best
-option. To replace a layout, click on the layout to be replaced in the
-[guilabel]#Outline# view, choose [menuchoice]#Replace with# in the context menu 
-and select a layout to replace the current one with from the list of layouts
-that appears.
+required. Replacing the layout that contains those components is a convenient 
+way to achieve that. To replace a layout with another, click on the layout to be
+replaced in the [guilabel]#Outline# view, choose [menuchoice]#Replace with...# 
+in the context menu and select a layout to replace the current one with from the 
+list of layouts that appears.
 
 [[figure.designer.designing.replacewith]]
-.Replacing a Layout with another
-image::img/designer-replacewith.png[width=100%, scaledwidth=100%]
-
+.Replacing a Layout
+image::img/designer-replacewith.png[width=50%, scaledwidth=75%]
 
 Note that usual layout restrictions apply. For example if you replace a 
-[classname]#ComponentContainer# with a [classname]#SingleComponentContainer# 
-the leftover compoents will be dropped. Undo and redo work as usual, so you
+[classname]#VerticalLayout# with a [classname]#Panel#
+the leftover components will be dropped. Undo and redo work as usual, so you
 never lose your work.
 
 [[designer.designing.previewing]]
