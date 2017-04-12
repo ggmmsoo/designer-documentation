@@ -13,8 +13,9 @@ are available to be downloaded from
 https://github.com/vaadin/ibm-design-language-templates/tree/master/DesignerTemplate/completed_templates[here].
 
 image:https://vaadin.com/documents/10187/11059787/templates.png/e89562d1-5930-473a-883d-1412eff09102?t=1443090029574[Three
-color variations of the same template] Three color variations on the
-dashboard navigation template
+color variations of the same template]
+
+*Three color variations on the dashboard navigation template*
 
 [[installing-a-template]]
 Installing a template
@@ -52,7 +53,7 @@ from one of the existing Vaadin’s Maven archetypes.
 
 Launch the wizard for creating a new design by right-clicking your
 project and selecting +
-*New ► Other... ► Vaadin Design.*
+*New ► Other... ► Vaadin Design*.
 
 image:https://vaadin.com/documents/10187/11059787/create-new-design-0.png/1aedfcfe-9210-455e-9911-f2a0fb89aa65?t=1443090029000[New
 design wizard step 1]
@@ -70,7 +71,7 @@ Next button is not available and you can click Finish.
 image:https://vaadin.com/documents/10187/11059787/create-new-design-1.png/e91c79ce-ad94-48b2-b0db-ccdcd2f2adfd?t=1443090030000[New
 design wizard step 2]
 
-Style definitions in a template
+*Style definitions in a template*
 
 In Vaadin Designer 1.0 the CSS style definitions in a template file are
 by default copied to a file called `designs.scss`, which is created into
