@@ -87,7 +87,7 @@ Also depending on your Linux distribution you might need to install libwebkitgtk
 sudo apt-get install libwebkitgtk-1.0-0
 ----
 
-== I use Linux and the Designer on Intellij fails to start with the error __IPCException: IPC process exited. Exit code: 127__
+== I use Linux and the Designer on IntelliJ fails to start with the error __IPCException: IPC process exited. Exit code: 127__
 The embedded browser used by Designer on Intellij requires **``libXss``** and **``libCrypto``** to be available. Ensure that you have them installed.
 
 Also, on some Debian systems the libraries might be installed in the wrong location resulting in that the embedded browser cannot find them, in that case you can create a symlink to the right location. For example:
@@ -97,5 +97,10 @@ Also, on some Debian systems the libraries might be installed in the wrong locat
 libcrypto.so.1.0.0 -> ./x86_64-linux-gnu/libcrypto.so.1.0.2
 ----
 
-== Related
-* https://vaadin.com/wiki?p_p_id=36&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=row-1&p_p_col_pos=2&p_p_col_count=4&_36_struts_action=%2Fwiki%2Fview&p_r_p_185834411_nodeName=vaadin.com+wiki&p_r_p_185834411_title=Installing+older+releases[Installing older releases]
+== Installing older releases
+=== Instructions for Eclipse
+. Start by selecting Help -> "Install New Software..." from Eclipse menu bar. Then do the following:
+. Click on Add button to add a repository
+. Give a name your repository and click on the Archive button. Locate the downloaded Vaadin Designer archive from your file system and complete the install.
+
+image::img/designer-installing-older-versions.png[width=70%, scaledwidth=100%]
