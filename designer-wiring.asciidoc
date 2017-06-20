@@ -97,6 +97,21 @@ recommended.
 If you change the name, the declarative file and the companion Java class will
 be updated, but custom code referencing the field will currently not.
 
+[[designer.wiring.java.getter]]
+=== Access exported components through getters
+
+It is possible to generate getters for exported components instead of direct field 
+access. This setting could be set globally for every new created design from Vaadin Designer 
+Project settings.
+
+.Companion class settings section
+image::img/designer-getter-settings.png[height=20%]
+
+Later you can configure getters generation per Design file by pressing cogwheel button 
+in the editor toolbar.
+
+.Design settings section
+image::img/designer-getter-toolbar.png[height=20%]
 
 [[designer.wiring.java.extending]]
 === Extending or Referencing
