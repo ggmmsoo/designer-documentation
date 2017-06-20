@@ -101,13 +101,13 @@ be updated, but custom code referencing the field will currently not.
 === Access exported components through getters
 
 It is possible to generate getters for exported components instead of direct field 
-access. This setting could be set globally for every new created design from Vaadin Designer 
+access. This setting could be set globally for every newly created design from Vaadin Designer 
 Project settings.
 
 .Companion class settings section
 image::img/designer-getter-settings.png[height=20%]
 
-Later you can configure getters generation per Design file by pressing cogwheel button 
+Later you can configure getters generation per design file by pressing cogwheel button 
 in the editor toolbar.
 
 .Design settings section
